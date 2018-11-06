@@ -74,7 +74,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View style={[styles.iconContainer, { backgroundColor: red }]}>
-            <MaterialIcons name="directions-run" color={'black'} size={35} />
+            <MaterialIcons name="directions-run" color={white} size={35} />
           </View>
         );
       },
@@ -88,7 +88,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View style={[styles.iconContainer, { backgroundColor: orange }]}>
-            <MaterialCommunityIcons name="bike" color={'black'} size={35} />
+            <MaterialCommunityIcons name="bike" color={white} size={35} />
           </View>
         );
       },
@@ -102,7 +102,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View style={[styles.iconContainer, { backgroundColor: blue }]}>
-            <MaterialCommunityIcons name="swim" color={'black'} size={35} />
+            <MaterialCommunityIcons name="swim" color={white} size={35} />
           </View>
         );
       },
@@ -116,7 +116,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View style={[styles.iconContainer, { backgroundColor: lightPurp }]}>
-            <FontAwesome name="bed" color={'black'} size={35} />
+            <FontAwesome name="bed" color={white} size={35} />
           </View>
         );
       },
@@ -130,7 +130,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View style={[styles.iconContainer, { backgroundColor: pink }]}>
-            <MaterialCommunityIcons name="food" color={'black'} size={35} />
+            <MaterialCommunityIcons name="food" color={white} size={35} />
           </View>
         );
       },
